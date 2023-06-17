@@ -1,0 +1,69 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+	    ,{
+            "path" : "pages/commodity/commodity",
+			"style": {
+				"navigationBarTitleText": "商品管理",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black"
+			}
+            
+        }
+        ,{
+            "path" : "pages/order/order",
+			"style": {
+				"navigationStyle": "custom"
+			}
+            
+        }
+    ],
+	"subPackages": [
+		{
+			"root": "subpackage",
+			"pages": [
+				{
+                    "path" : "sort-admin/sort-admin",
+                    "style" :                                                                                    
+					{
+						"navigationBarTitleText": "分类管理",
+						"navigationBarBackgroundColor": "#e2c48b",
+						"navigationBarTextStyle": "black"
+					}
+                
+                }
+            ]
+		}
+	],
+	"uniIdRouter": {},
+	"tabBar": {
+		"selectedColor": "#e98f36",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/image/home.png",
+				"selectedIconPath": "static/image/home-actived.png"
+			},
+			{
+				"text": "商品管理",
+				"pagePath": "pages/commodity/commodity",
+				"iconPath": "static/image/commodity.png",
+				"selectedIconPath": "static/image/commodity-actived.png"
+			},
+			{
+				"text": "订单管理",
+				"pagePath": "pages/order/order",
+				"iconPath": "static/image/order.png",
+				"selectedIconPath": "static/image/order-actived.png"
+			}
+		]
+	}
+}

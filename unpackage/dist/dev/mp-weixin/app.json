@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/commodity/commodity",
+    "pages/order/order"
+  ],
+  "subPackages": [
+    {
+      "root": "subpackage",
+      "pages": [
+        "sort-admin/sort-admin"
+      ]
+    }
+  ],
+  "tabBar": {
+    "selectedColor": "#e98f36",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/home.png",
+        "selectedIconPath": "static/image/home-actived.png"
+      },
+      {
+        "text": "商品管理",
+        "pagePath": "pages/commodity/commodity",
+        "iconPath": "static/image/commodity.png",
+        "selectedIconPath": "static/image/commodity-actived.png"
+      },
+      {
+        "text": "订单管理",
+        "pagePath": "pages/order/order",
+        "iconPath": "static/image/order.png",
+        "selectedIconPath": "static/image/order-actived.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,1 @@
+<view class="top_view"><view class="text-area" style="{{d}}"><view class="title" style="{{a}}"></view><view class="" style="{{b + ';' + c + ';' + 'padding-left: 15px'}}"> 零食商城 </view></view></view>
